@@ -36,5 +36,12 @@ Primeiro projeto Angular!
   ![image](https://user-images.githubusercontent.com/62728615/140847473-a3b455a3-aab1-4f81-8db0-bd8d20699059.png)
 - Dentro do HTML principal <app.component.ts> precisaremos declarar a tag <router-outlet></router-outlet> para o angular entender que estamos usando o roteamento.
 
+## Customizando o tema do Angular material
+-  importar '@angular/material/theming'
+-  include mat-core();
+-  adicionar os 3 tipos de cores existentes no angular material (primary/secondary/warn);
+-  criar o tema com as 3 variaveis de cores setadas;
+-  alterar o thema padrão do angular material com comando: @include angular-material-theme($custom-theme);
+  ![image](https://user-images.githubusercontent.com/62728615/140849770-1b45892e-f598-47c2-bc31-7e1d5a06c78c.png)
 
 
