@@ -31,6 +31,7 @@ Primeiro projeto Angular!
 - Criação de um component dentro do modulo courses com o comando 'ng generate component courses/courses'
 -- Será criado os 4 arquivos que são (html, scss, arquivo de testes spec.ts e o prórpio component )
 - Dentro do arquivo de rotas do course (courses-routing-module.ts), adicionar um caminho em branco para direcionar para o CoursesComponent:
+
   ![image](https://user-images.githubusercontent.com/62728615/140846931-eb6c686e-948e-4791-bfe3-5aad77f8ae21.png)
 - Configurar o arquivo de rotas global (app-routing-module.ts), tanto um redirectTo para Course caso tenha apenas localhost:4200 na URL. E um lazyloading para importar o módulo   que usaremos:
   ![image](https://user-images.githubusercontent.com/62728615/140847473-a3b455a3-aab1-4f81-8db0-bd8d20699059.png)
