@@ -8,6 +8,7 @@ Primeiro projeto Angular!
 - Abrir um novo terminal (Terminal > New Terminal) 
 - comando 'ng serve' para rodar a aplicação
 - Abrir no browser "localhost:4200"
+- Importante rodar o comando npm cache clear --force para o node não utilizar pacotes em cache
 
 ## Instalando Angular Material
 - No terminal digitar  o comando 'ng add @angular/material' para instalar o angular material
